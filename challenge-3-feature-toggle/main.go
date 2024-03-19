@@ -10,7 +10,7 @@ func main() {
 	isEmailEnabled := true
 	toggle := toggle.New(isEmailEnabled)
 
-	contact := contact.New("kbtg@kampus.tech", "0812345678")
+	contact := contact.New("han_f50@hotmail.com", "0812345678")
 	notification := notification.New(toggle)
 	notification.Send("Hello, Go!", contact)
 }
