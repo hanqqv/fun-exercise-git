@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	isEmailEnabled := true
+	isEmailEnabled := false
 	toggle := toggle.New(isEmailEnabled)
 
 	contact := contact.New("han_f50@hotmail.com", "0812345678")
